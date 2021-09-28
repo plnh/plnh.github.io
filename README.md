@@ -15,4 +15,4 @@ Here is the link of my portfolio website:
 > * **Github:** https://github.com/plnh
 
 ####  Particles is based on this project : https://github.com/VincentGarreau/particles.js
-####  Design by me | Codes based on Etienne Boursault
+####  Designed by me | Framework from Etienne Boursault
