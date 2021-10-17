@@ -2,14 +2,10 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PVHEBWC85N"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-PVHEBWC85N');
 </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,15 +41,18 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
   <!-- particles.js container -->
-  <div id="header-particle">
-    <div id="particles-js"></div>
-    <div id="above-particle">
-      <h2>Hi there, I'm</h2>
-      <h1>Ha Pham-Ly</h1>
-      <p><br></p>
-      <p><span id="typer"></span>_</p>
-      <p><br></p>
-      <a href="#about" class="btn btn-skin btn-scroll">About me >> </a>
+  
+  <div class="row">
+    <div id="header-particle">
+      <div id="particles-js"></div>
+      <div id="above-particle">
+        <h2>Hi there, I'm</h2>
+        <h1>Ha Pham-Ly</h1>
+        <p><br></p>
+        <p><span id="typer"></span>_</p>
+        <p><br></p>
+        <a href="#about" class="btn btn-skin btn-scroll">About me >> </a>
+      </div>
     </div>
   </div>
 
@@ -124,12 +123,12 @@
     <div class="container">	
       <div class="row">	
         <div class="col-lg-5 animatedParent">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
           <img src="img/me.jpeg" alt="A nice picture of me" title="This is me falling in love with Madrid" class='img-responsive pull-right mr-2 d-block' id='img-me'>
         </div>
         <div class="col-lg-6 animatedParent text-left" id='txt-my-pic'>
@@ -137,20 +136,29 @@
           <p><strong>Practiced Data Analyst | Certificated Associate in Project Management</strong></p>
           <p id=tag>#DataAnalytics #BusinessIntelligence #DataViz #ioT </p>
           <br>
-          <p>I’m a practiced data analyst and data visualization designer based in Paris, France. </p>
+          <p>
+            I’m a practiced data analyst and data visualization designer based in Paris, France.
+          </p>
           <br>
-          <p>I discovered my passion for data during my MBA at Audencia Business School in Nantes, France. 
-				I taught myself how to code using as many courses  and resource as I could find. 
-				After graduating in 2021, I continued training as a data analyst through online courses, certifications, and independent consulting. </p>
+          <p>
+            I discovered my passion for data during my MBA at Audencia Business School in Nantes, France.
+            I taught myself how to code using as many courses  and resource as I could find. 
+            After graduating in 2021, I continued training as a data analyst through online courses, certifications, and independent consulting.
+          </p>
           <br>
-          <p>I love data because it combines the precision of analysis with the creativity of design: a perfect meeting of my two worlds as a former industrial engineer and procurement professional, and my personal passion for coding and data visualization. 
-				Prior to my graduate studies, I worked with some of the world’s most recognizable brands in manufacturing, operational logistics, and supply chain management. 
-				Now, I work with spreadsheets and SQL, and have completed several projects in Python. I have also created several data visualization projects from scratch, using BI tools like Tableau and PowerBI alongside Figma and Adobe Illustrator</p>
+          <p>
+            I love data because it combines the precision of analysis with the creativity of design: a perfect meeting of my two worlds as a former industrial engineer and procurement professional, and my personal passion for coding and data visualization. 
+            Prior to my graduate studies, I worked with some of the world’s most recognizable brands in manufacturing, operational logistics, and supply chain management. 
+            Now, I work with spreadsheets and SQL, and have completed several projects in Python. I have also created several data visualization projects from scratch, using BI tools like Tableau and PowerBI alongside Figma and Adobe Illustrator</p>
           <br>
-          <p>This website is my personal page to showcase and share my data work with the larger community. 
-				I’m also currently looking for my next step!  
-				I am actively searching for full-time and consulting opportunities in the data analysis space. </p>
-			<p> Please feel free to browse my portfolio, review my various projects, and don’t hesitate to reach out if you’re looking for someone with my skillset! </p>
+          <p>
+            This website is my personal page to showcase and share my data work with the larger community. 
+            I’m also currently looking for my next step!  
+            I am actively searching for full-time and consulting opportunities in the data analysis space.
+          </p>
+          <p>
+            Please feel free to browse my portfolio, review my various projects, and don’t hesitate to reach out if you’re looking for someone with my skillset!
+          </p>
           <br>
           <br>
           <a href="#contact" class="btn btn-skin btn-scroll" id='btn-about-me'>Contact me >> </a>
@@ -161,7 +169,6 @@
   </div>
   </section>
   <!-- /Section: about -->
-
 
   <!-- Section: project -->
   <section id="project" class="home-section color-dark bg-white">
@@ -180,7 +187,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
-          <table class="table table-hover">
+          <table class="table table-condensed table-hover">
             <thead>
               <tr>
                 <th>Project Name</th>
@@ -191,92 +198,105 @@
               </tr>
             </thead>
             <tbody>
-				<tr>
-                <td><a class=project-name href="https://github.com/plnh/Data-Analyst_Portfolio" target="_blank">Data Analyst Portfolio</a></td>
+              <tr>
+                <td>
+                  <a class="project-name"
+                  href="https://github.com/plnh/Data-Analyst_Portfolio"
+                  target="_blank">Data Analyst Portfolio</a>
+                </td>
                 <td>A collection of selected analyst projects to demonstrate skill sets, knowledge, and what I find interesting</td>
-                
-                <td id=tag>#T-SQL #python #Excel #dashboard #machinelearning</td>
+                <td id="tag">#T-SQL #python #Excel #dashboard #machinelearning</td>
                 <td>
                   <a class='project-link underline-dashed' href="https://github.com/plnh/Data-Analyst_Portfolio" target="_blank">GitHub</a>
                 </td>
                 <td>constantly updating</td>
-				</tr>
-				<tr>
-                <td><a class=project-name href="https://htmlpreview.github.io/?https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/Travel%20Insurance%20Prediction.html" target="_blank">Travel Insurance Prediction</a></td>
-                
-                <td>Use T-SQL to perform EDA and explore which customers would be interested in travel insurance</td>
-                
-                <td id=tag>#T-SQL #python #pyodbc #database</td>
+              </tr>
+              <tr>
                 <td>
-                  <a class='project-link underline-dashed' href="https://htmlpreview.github.io/?https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/Travel%20Insurance%20Prediction.html" target="_blank">Jupyter</a>
-                <a class='project-link underline-dashed' href="https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/datasets/TravelInsurancePrediction.sql" target="_blank">GitHub</a>
-				</td>
+                  <a class="project-name"
+                  href="https://htmlpreview.github.io/?https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/Travel%20Insurance%20Prediction.html"
+                  target="_blank">Travel Insurance Prediction</a>
+                </td>
+                <td>Use T-SQL to perform EDA and explore which customers would be interested in travel insurance</td>                
+                <td id="tag">#T-SQL #python #pyodbc #database</td>
+                <td>
+                  <a class='project-link underline-dashed'
+                  href="https://htmlpreview.github.io/?https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/Travel%20Insurance%20Prediction.html"
+                  target="_blank">Jupyter</a>
+                  <a class='project-link underline-dashed'
+                  href="https://github.com/plnh/Data-Analyst_Portfolio/blob/main/SQL/datasets/TravelInsurancePrediction.sql"
+                  target="_blank">GitHub</a>
+                </td>
                 <td>Oct. 2021</td>
               </tr>
               <tr>
                 <td><a class='project-name' href="https://github.com/plnh/plnh.github.io">Profolio Website - Ha Pham-Ly</a></td>
                 <!-- Need to upload link here -->
                 <td>Design my personal website with to showcase my projects and experience.</td>
-                
                 <td id='tag'>#WebDesign #html #css </td>
                 <td>
                   <a class='project-link underline-dashed' href="">Website</a>
                   <a class='project-link underline-dashed' href="" target="_blank">Github</a>
                 </td>
                 <td>May 2021</td>
-			  <tr>
-               <td style="width:200px"><a class=project-name href="" target="_blank">Marketing Use Case: Customer clustering for Personality Analysis</a></td>
-                <!-- Need to learn how to make Jupiter to html -->
-				<td>Performed modleing clustering to summarize customer segments. Cleaned and handled raw data pior to processing and analysis. Delivered tailored marketing strategies for each cluster.
-                </td>
-                <td id=tag>#Clustering #ExploratoryDataAnalysis #DataCleaning #Python #pandas #numpy #seaborns #matlabplot</td>
-                <td>
-                  <a class='project-link underline-dashed' href="documents/Customer Personality Analysis.html">Jupyter</a>
-				  <a class='project-link underline-dashed' href="https://github.com/plnh/Customer_Personality_Analysis">GitHub</a>
-                </td>
-                <td>Aug. 2021</td>
-              </tr>
               <tr>
-                <td><a class=project-name href="https://public.tableau.com/views/RWFDSupplyChainDashboard_16293782780050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Supply Chain Dashboard</a></td>
-                
-                <td>The dashboard aims to allow 3PL supplier to track track inventory levels, logistics management, and warehouse operations.</td>
-                
-                <td id=tag>#DataViz #Interactive Dashboard #Tableau #SQL #Figma </td>
+                <td style="width:200px">
+                  <a class=project-name href="" target="_blank">Marketing Use Case: Customer clustering for Personality Analysis</a>
+                </td>
+                  <!-- Need to learn how to make Jupiter to html -->
+                <td>Performed modleing clustering to summarize customer segments. Cleaned and handled raw data pior to processing and analysis. Delivered tailored marketing strategies for each cluster.</td>
+                <td id="tag">#Clustering #ExploratoryDataAnalysis #DataCleaning #Python #pandas #numpy #seaborns #matlabplot</td>
                 <td>
                   <a class='project-link underline-dashed'
-                    href="https://public.tableau.com/views/RWFDSupplyChainDashboard_16293782780050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau</a>
+                  href="documents/Customer Personality Analysis.html">Jupyter</a>
+                  <a class='project-link underline-dashed'
+                  href="https://github.com/plnh/Customer_Personality_Analysis">GitHub</a>
                 </td>
                 <td>Aug. 2021</td>
               </tr>
-              
-			  </tr>
               <tr>
-                <td><a class= "project-name"
-                    href="https://public.tableau.com/views/Americanethnicitychart/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Race Diversity in the US</a></td>
+                <td>
+                  <a class="project-name" 
+                  href="https://public.tableau.com/views/RWFDSupplyChainDashboard_16293782780050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
+                  target="_blank">Supply Chain Dashboard</a>
+                </td>
+                <td>The dashboard aims to allow 3PL supplier to track track inventory levels, logistics management, and warehouse operations.</td>                
+                <td id="tag">#DataViz #Interactive Dashboard #Tableau #SQL #Figma </td>
+                <td>
+                  <a class='project-link underline-dashed'
+                    href="https://public.tableau.com/views/RWFDSupplyChainDashboard_16293782780050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
+                    target="_blank">Tableau</a>
+                </td>
+                <td>Aug. 2021</td>
+              </tr>
+              <tr>
+                <td>
+                  <a class= "project-name"
+                  href="https://public.tableau.com/views/Americanethnicitychart/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+                  target="_blank">Race Diversity in the US</a></td>
                 <td>Used US. Census Open data to analyze and visualize the diversity of each state in the United States.</td>
-                
-                <td id=tag>#DataViz #Tableau #InteractiveDashboard</td>
+                <td id="tag">#DataViz #Tableau #InteractiveDashboard</td>
                 <td>
                   <a class='project-link underline-dashed'
-                    href="https://public.tableau.com/views/Americanethnicitychart/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau</a>
+                    href="https://public.tableau.com/views/Americanethnicitychart/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+                    target="_blank">Tableau</a>
                 </td>
                 <td>Aug. 2021</td>
               </tr>
-			  
-			  
-			  <tr>
-                <td><a class=project-name href="" target="_blank"> Social Impact Performance metrics</a></td>
+              <tr>
+                <td>
+                  <a class="project-name" href="" target="_blank"> Social Impact Performance metrics</a>
+                </td>
                 <!-- Need to upload pdf file -->
-                <td>Consulting student project for a non-profit. Defined Sustainable Development Goals and their measurable metrics</td>
-                
+                <td>Consulting student project for a non-profit. Defined Sustainable Development Goals and their measurable metrics</td>                
                 <td id=tag>#KPIs #SDG #FormativeAssessment #Excel </td>
-                <td><a class='project-link underline-dashed' target="_blank"
-                    href="documents/Consulting Mission.pdf">PDF</a>
+                <td>
+                  <a class='project-link underline-dashed'
+                  target="_blank"
+                  href="documents/Consulting Mission.pdf">PDF</a>
                 </td>
                 <td>Mar. 2020</td>
               </tr>
-              
-              
             </tbody>
           </table>
         </div>
@@ -285,12 +305,11 @@
   </section>
   <!-- /Section: project -->
 
-
   <!-- Section: experience -->
   <section id="experience" class="home-section color-dark bg-gray">
     <div class="container marginbot-10">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-10 col-lg-offset-1">
           <div class="animatedParent">
             <div class="section-heading text-center ">
               <h2 class="h-bold">My Experience</h2>
@@ -303,39 +322,33 @@
 
     <div class="container">	
       <div class="row">	
-        
         <div class="col-lg-10 col-lg-offset-1 animatedParent">
           <h6 id='experience-title'>Experience</h6>
           <table class="table table-condensed table-hover">
-            <tr>
-              <th class="col-md-2">
-                <strong class='work-position'>Self-Development</strong> 
-                <br>
-                <strong class='work-company'>Freelance</strong> 
-              </th>
-              <th class="col-md-1" style='width:12%'> 
-                <strong class='work-city'>France</strong> 
-                <br>
-                <strong class='work-date'>07/2019 - present</strong> 
-              </th>
-              <td class="col-md-6">
-                <ul id='education'>
-                  <p id='cv-subtitle'>After of 5 years working in computer industry, I decided to take a career break to do a master and develop myself:</p>
-                  <li>Freelance | 2021: I helped a client for collect and analyse industrial data to define potential customer segments.
-				  </li>
-                  <li>Student consulting | 2021: we helped a non-profit enterprise in Bordeaux to measure & communicate their social performance to investors/sponsors  
-                  </li>
-				  <li>Audencia | 2019-2021: I completed my MBA program in 2020 and from this program I discovered my love for data and data visualization.
-                  </li>
-                  
-                </ul>
-              </td>
-            </tr>
             <tbody>
               <tr>
+                <td class="col-md-2">
+                  <strong class='work-position'>Self-Development</strong> 
+                  <br>
+                  <strong class='work-company'>Freelance</strong> 
+                </td>
+                <td class="col-md-1" style='width:12%'> 
+                  <strong class='work-city'>France</strong> 
+                  <br>
+                  <strong class='work-date'>07/2019 - present</strong> 
+                </td>
+                <td class="col-md-6">
+                  <ul id='education'>
+                    <p id='cv-subtitle'>After of 5 years working in computer industry, I decided to take a career break to do a master and develop myself:</p>
+                    <li>Freelance | 2021: I helped a client for collect and analyse industrial data to define potential customer segments.</li>
+                    <li>Student consulting | 2021: we helped a non-profit enterprise in Bordeaux to measure & communicate their social performance to investors/sponsors </li>
+                    <li>Audencia | 2019-2021: I completed my MBA program in 2020 and from this program I discovered my love for data and data visualization.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
                 <td>
-                  
-				  <strong class='work-position'>Procurement manager</strong> 
+                  <strong class='work-position'>Procurement manager</strong> 
                   <br>
                   <strong class='work-company'>Amaris Consulting</strong> 
                 </td>
@@ -346,13 +359,9 @@
                 </td>
                 <td>
                   <ul>
-                    <li>Lead buyer: sourced, negotiated, and managed contracts.
-					</li>
-					<li>Reduced overall spending by 30% saving 120k €/year through cross-agency negotiation.
-					</li>
-					<li>Collected and cleaned data of cost, delivery time, invoice compliance, built KPI dashboards that could be quickly understood and act upon
-					</li>			
-
+                    <li>Lead buyer: sourced, negotiated, and managed contracts.</li>
+                    <li>Reduced overall spending by 30% saving 120k €/year through cross-agency negotiation.</li>
+                    <li>Collected and cleaned data of cost, delivery time, invoice compliance, built KPI dashboards that could be quickly understood and act upon.</li>
                   </ul>
                 </td>
               </tr>
@@ -369,20 +378,14 @@
                 </td>
                 <td>
                   <ul>
-                    <li>Developed and maintained Staff Training libraries/databases
-					</li>
-                    <li>Managed a group of five technical trainers, delivered a 100% completion rate across mechanic and technical training programs
-					</li>
-                    <li>Led and facilitated technician and engineer training curricula for over 200 incoming specialists.
-					</li>
-                    <li>Planned and scheduled 75+ training program courses
-                    </li>
+                    <li>Developed and maintained Staff Training libraries/databases</li>
+                    <li>Managed a group of five technical trainers, delivered a 100% completion rate across mechanic and technical training programs</li>
+                    <li>Led and facilitated technician and engineer training curricula for over 200 incoming specialists.</li>
+                    <li>Planned and scheduled 75+ training program courses</li>
                   </ul>
                 </td>
               </tr>
-			  
-			 <tr>
-                
+              <tr>
                 <td>
                   <strong class='work-position'>Industrial engineer & product manager</strong> 
                   <br>
@@ -395,17 +398,13 @@
                 </td>
                 <td>
                   <ul>
-                    <li>Applied SAP MRP, Excel VBA to develop annual production plans, schedules, and budget of 1.5B units/year.
-					</li>
-                    <li>Preparing reports of forecast analysis to C-suits, and maintained cooperation across departments to effectively reach output targets and strategy goals
-					</li>
-                    <li>Led product program manager for 5 new products/quarter regarding ramp plans, technical forecasts, and new product lines
-					</li>
+                    <li>Applied SAP MRP, Excel VBA to develop annual production plans, schedules, and budget of 1.5B units/year.</li>
+                    <li>Preparing reports of forecast analysis to C-suits, and maintained cooperation across departments to effectively reach output targets and strategy goals</li>
+                    <li>Led product program manager for 5 new products/quarter regarding ramp plans, technical forecasts, and new product lines</li>
                   </ul>
                 </td>
-			</td>
-			</tbody>
-			<tbody>
+              </tr>
+              <tr>
                 <td>
                   <strong class='work-position'>Logistics Coordinator</strong> 
                   <br>
@@ -418,41 +417,37 @@
                 </td>
                 <td>
                   <ul>
-                    <li>Liaison between 3PL suppliers, Logistics & Production departments, and managed importation process
-					</li>
-                    <li>Applied Leans & Kanban in process improvement: generated 80% in resource savings and shortened overall process duration by 60%
-					</li>
-                    <li>Applied advanced MS Excel (PivotTables, VLookup, INDEX/MATCH, etc.) to control schedule compliance of equipment transportation
-					</li>
-                    </ul>
+                    <li>Liaison between 3PL suppliers, Logistics & Production departments, and managed importation process</li>
+                    <li>Applied Leans & Kanban in process improvement: generated 80% in resource savings and shortened overall process duration by 60%</li>
+                    <li>Applied advanced MS Excel (PivotTables, VLookup, INDEX/MATCH, etc.) to control schedule compliance of equipment transportation</li>
+                  </ul>
                 </td>
               </tr>
-			  
             </tbody>
           </table>	
           <br>
           <h6 id='experience-title'>Education</h6>
           <table class="table table-condensed table-hover">
-            <tr>
-              <th class="col-md-2">
-                <strong class='work-position'>Masters of Business Administration</strong> 
-                <br>
-                <strong class='work-company'>Audencia Nantes École de Management</strong> 
-              </th>
-              <th class="col-md-1" style='width:12%' >
-                <strong class='work-city'>Nantes, France</strong> 
-                <br>
-                <strong class='work-date'>09/2019 - 02/2021</strong> 
-              </th>
-              <td class="col-md-6">
-                <ul>
-                  <p><strong> Specialization: Financial Accounting, Corporate Social Responsibility</strong> </p>
-                  <p> •Data-Driven Decision Making •Data Visulizing • Accounting and Finance •Strategy and Marketing • Managing People and Organisations •Operations and Supply Chain </p>
-                  <p><strong> Consulting Mission for Benoo Energies, Bordeaux FR </strong> </p>
-                </ul>
-              </td>
-            </tr>
             <tbody>
+              <tr>
+                <th class="col-md-2">
+                  <strong class='work-position'>Masters of Business Administration</strong> 
+                  <br>
+                  <strong class='work-company'>Audencia Nantes École de Management</strong> 
+                </th>
+                <th class="col-md-1" style='width:12%' >
+                  <strong class='work-city'>Nantes, France</strong> 
+                  <br>
+                  <strong class='work-date'>09/2019 - 02/2021</strong> 
+                </th>
+                <td class="col-md-6">
+                  <ul>
+                    <p><strong> Specialization: Financial Accounting, Corporate Social Responsibility</strong> </p>
+                    <p> •Data-Driven Decision Making •Data Visulizing • Accounting and Finance •Strategy and Marketing • Managing People and Organisations •Operations and Supply Chain </p>
+                    <p><strong> Consulting Mission for Benoo Energies, Bordeaux FR </strong> </p>
+                  </ul>
+                </td>
+              </tr>
               <tr>
                 <td>
                   <strong class='work-position'>Bachelors of Science</strong> 
@@ -471,9 +466,7 @@
                     </p>
                   </ul>
                 </td>
-             </tr>
-            </tbody>
-			<tbody>
+              </tr>
               <tr>
                 <td>
                   <strong class='work-position'>Mechanical Engineer</strong> 
@@ -492,15 +485,16 @@
                     </p>
                   </ul>
                 </td>
-             </tr>
+              </tr>
             </tbody>
           </table>
           <br>
           <p id='cv-download'> • Download my CV in PDF here: <a href="documents/CV Ha EN.pdf" class='underline-dashed' target="_blank" id='cv-download-link'>English</a>
             <small><em id="cv-update-date"> Last updated: Aug. 2021 </em></small>
-            <p id='cv-download'> • Download my CV in PDF here: <a href="documents/CV Ha FR.pdf" class='underline-dashed' target="_blank" id='cv-download-link'>French</a>
+          </p>
+          <p id='cv-download'> • Download my CV in PDF here: <a href="documents/CV Ha FR.pdf" class='underline-dashed' target="_blank" id='cv-download-link'>French</a>
               <small><em id="cv-update-date"> Last updated: Aug. 2021</em></small>
-         </p>
+          </p>
         </div>
       </div>      
     </div>
@@ -524,7 +518,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
-        <table class="table table-hover">
+        <table class="table table-condensed table-hover">
           <thead>
             <tr>
               <th>Certificate</th>
@@ -538,9 +532,10 @@
             <tr>
               <td style="width:190px"> <p class='project-name'>Data Analyst with Python Track</p></td>
               <td style="width:155px">DataCamp</td>
-              <td id=tag style="width:300px">#PythonProgramming #DataAnalysis #DataVisualization #SQL #Data Science #Pandas #Numpy 
+              <td id=tag style="width:300px">#PythonProgramming #DataAnalysis #DataVisualization #SQL #Data Science #Pandas #Numpy </td>
+              <td>
+                <a class='project-link underline-dashed' href="documents/Data Analyst Track.pdf" target="_blank">PDF</a>
               </td>
-              <td><a class='project-link underline-dashed' href="documents/Data Analyst Track.pdf" target="_blank">PDF</a></td>
               <td>Sept 2021</td>
             </tr>
             <tr>
@@ -550,8 +545,11 @@
               <td>Google</td>
               <td id=tag>#RProgramming #DataAnalysis #DataVisualization #Tableau #SQL #MicrosoftExcel #Metadata #DataCollection #SampleSize
               </td>
-              <td><a class='project-link underline-dashed' href="https://www.credly.com/badges/43d932be-1cb5-46a9-bd70-0dbe6390b368?source=linked_in_profile" target="_blank">Credly</a></td>
-              
+              <td>
+                <a class='project-link underline-dashed'
+                href="https://www.credly.com/badges/43d932be-1cb5-46a9-bd70-0dbe6390b368?source=linked_in_profile"
+                target="_blank">Credly</a>
+              </td>
               <td>Sept 2020</td>
             </tr>
             <tr>
@@ -559,7 +557,11 @@
               <td>Project Management Institute</td>
               <td id=tag>#Agile #ProjectManagement #ScopeManagement #TimeManagement #IntergrationManagement #Scheduling #MicrosoftProject
               </td>
-              <td><a class='project-link underline-dashed' href="https://www.credly.com/badges/9ba69c86-81de-4503-92d4-7577c5f9a184/public_url" target="_blank">Credly</a></td>
+              <td>
+                <a class='project-link underline-dashed'
+                href="https://www.credly.com/badges/9ba69c86-81de-4503-92d4-7577c5f9a184/public_url"
+                target="_blank">Credly</a>
+              </td>
               <td>June 2020</td>
             </tr>
           </tbody>
@@ -567,14 +569,13 @@
       </div>
     </div>
   </div>
-           
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
         <br>
         <br>
         <h6 id='experience-title'>Online Courses</h6>
-        <table class="table table-hover">
+        <table class="table table-condensed table-hover">
           <thead>
             <tr>
               <th>Course Name</th>
@@ -582,7 +583,6 @@
               <th>Core Skillset</th>
               <th>Link</th>
               <th>Iss. Date</th>
-
             </tr>
           </thead>
           <tbody>
@@ -606,7 +606,7 @@
               <td><a class='project-link underline-dashed' href="documents/DataManipulationwithpandas.pdf" target="_blank">PDF</a></td>
               <td>Sep 2021</td>
             </tr>
-			<tr>
+            <tr>
               <td>
                 <p class='project-name' href="">Exploratory Data Analysis in Python</p>
               </td>
@@ -616,7 +616,7 @@
               <td><a class='project-link underline-dashed' href="documents/Exploratory Data Cert.pdf" target="_blank">PDF</a></td>
               <td>Sep 2021</td>
             </tr>
-			<tr>
+            <tr>
               <td>
                 <p class='project-name' href="">Object-Oriented Programming in Python</p>
               </td>
@@ -626,7 +626,7 @@
               <td><a class='project-link underline-dashed' href="documents/DataManipulationwithpandas.pdf" target="_blank">PDF</a></td>
               <td>Sep 2021</td>
             </tr>
-			<tr>
+            <tr>
               <td>
                 <p class='project-name' href="">SQL Server Fundamentals</p>
               </td>
@@ -644,52 +644,48 @@
 </section>
 <!-- /Section: certificates -->
 
-  <!-- Section: contact -->
-  <section id="contact" class="home-section color-dark bg-white">
-    <div class="container marginbot-10">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="animatedParent">
-            <div class="section-heading text-center ">
-              <h2 class="h-bold">Contact Me.</h2>
-              <div class="divider-header"></div>
-            </div>
+<!-- Section: contact -->
+<section id="contact" class="home-section color-dark bg-white">
+  <div class="container marginbot-10">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="animatedParent">
+          <div class="section-heading text-center ">
+            <h2 class="h-bold">Contact Me.</h2>
+            <div class="divider-header"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row" id='contact-padding'>
-        <div class="col-md-3  col-md-offset-1 animatedParent">
-          <img src="img/dog.jpeg" alt="Avatar" id='avatar' title="This is my dog named after Finn the human from Adventure Times" class='img-responsive'>
-        </div>
-        <div class="col-md-7 col-md-offset-1 animatedParent">
-          <div class="text-left">
-            <h6 id='my-name'>Ha Pham-Ly</h6>
-            <p>Based in Paris, France</p>
-            <p>Practiced Data Analyst | MBA, Audencia Business School (2021)</p>
-            <p class='contact-info'>E-mail: <a href="mailto:ha.phamly.outlook.com" id='email'
-                class='contact-info'>ha.phamly@outlook.com</a></p>
-			<p class='contact-info'>Mobile: <a href=" " id='mobile'
-                class='contact-info'>+33 7 69 23 85 86</a></p>
-  
+  </div>
+  <div class="container">
+    <div class="row" id='contact-padding'>
+      <div class="col-md-3  col-md-offset-1 animatedParent">
+        <img src="img/dog.jpeg" alt="Avatar" id='avatar' title="This is my dog named after Finn the human from Adventure Times" class='img-responsive'>
+      </div>
+      <div class="col-md-7 col-md-offset-1 animatedParent">
+        <div class="text-left">
+          <h6 id='my-name'>Ha Pham-Ly</h6>
+          <p>Based in Paris, France</p>
+          <p>Practiced Data Analyst | MBA, Audencia Business School (2021)</p>
+          <p class='contact-info'>E-mail: 
+            <a href="mailto:ha.phamly.outlook.com" id='email' class='contact-info'>ha.phamly@outlook.com</a>
+          </p>
+          <p class='contact-info'>Mobile:
+            <a href="" id='mobile' class='contact-info'>+33 7 69 23 85 86</a>
+          </p>
+          <div class="footer-social-icons">
+            <ul class="social-icons">
+              <li><a href="https://www.linkedin.com/in/halnpham/" target="blank" class="social-icon"><em class="fa fa-linkedin"></em></a></li>
+              <li><a href="https://github.com/plnh/" target="blank" class="social-icon"><em class="fa fa-github"></em></a></li>
+              <li><a href="https://twitter.com/HaPhamLy" target="blank" class="social-icon"><em class="fa fa-twitter"></em></a></li>
             </ul>
-            <div class="footer-social-icons">
-              <ul class="social-icons">
-                <li><a href="https://www.linkedin.com/in/halnpham/" target="blank" class="social-icon"><em class="fa fa-linkedin"></em></a></li>
-                <li><a href="https://github.com/plnh/" target="blank" class="social-icon"><em class="fa fa-github"></em></a></li>
-                <li><a href="https://twitter.com/HaPhamLy" target="blank" class="social-icon"><em class="fa fa-twitter"></em></a></li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </div>
-  
-    </div>
-    </div>
-  </section>
-  <!-- /Section: contact -->
+</section>
+<!-- /Section: contact -->
 
   <footer>
     <div class="container">
@@ -699,14 +695,9 @@
             <a href="#" id='back-to-top'>Back to top ↑</a>
           </div>
         </div>
-        <div class="col-md-10 text-right">
-          <p>&copy;</p>
-        </div>
       </div>	
     </div>
   </footer>
 
 </body>
-
 </html>
-
